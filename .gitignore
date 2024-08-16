@@ -1,0 +1,5 @@
+venv/
+get-pip.py
+lr_tfidf.joblib
+lr_tfidf.pkl
+svm.pkl
