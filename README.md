@@ -1,6 +1,9 @@
 ## HS Code Classification API's with FastAPI and Flask
 
-This repository contains a HS code classification API'S built using FastAPI and Flask. The API provides endpoints for making predictions using trained machine learning models.
+
+## Description
+
+This repository contains a HS code classification API'S built using FastAPI and Flask. The API provides endpoints for making predictions using trained machine learning models of logistic regression and artificial neural network.
 
 ## Project Structure
 
@@ -13,24 +16,16 @@ This repository contains a HS code classification API'S built using FastAPI and 
 - `main.py`: FastAPI implementation.
 - `main_flask.py`: Flask implementation.
 
-### Prerequisites
-
-- Python 3.7+
-- FastAPI
-- Flask
-- scikit-learn
-- TensorFlow
-
 ### Workflow of API
 - Client sends a POST request to the /predict endpoint with a JSON body containing descriptions.
 - FastAPI receives the request and passes the descriptions to the predict function.
 - Descriptions are preprocessed using the preprocess function, which:
-1. Converts the text to lowercase.
-2. Removes special characters.
-3. Tokenizes the text.
-4. Removes stop words.
-5. Lemmatizes the tokens.
-6. Joins the tokens back into a cleaned string.
+  1. Converts the text to lowercase.
+  2. Removes special characters.
+  3. Tokenizes the text.
+  4. Removes stop words.
+  5. Lemmatizes the tokens.
+  6. Joins the tokens back into a cleaned string.
 - Preprocessed descriptions are transformed using the vectorizer.
 - Model makes predictions based on the transformed descriptions and provides probabilities for each class.
 - From the predicted probabilities, the top 3 class indices and their respective probabilities are extracted.
@@ -40,14 +35,24 @@ This repository contains a HS code classification API'S built using FastAPI and 
 
 ### Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Muhammad-Talha4k/machine_learning_api_with_fast-flask.git
-   cd machine_learning_api_with_fast-flask
 
+### Requirements
+
+- Python 3.7+
+- FastAPI
+- Flask
+- scikit-learn
+- TensorFlow
+
+### Setup 
+
+ Clone the repository:
+ 
+ ```bash git clone https://github.com/Muhammad-Talha4k/machine_learning_api_with_fast-flask.git cd machine_learning_api_with_fast-flask ```
+ 
 ### Usage
 
 You can make predictions by sending a POST request to the appropriate endpoint with input descriptions in a json format .
 
-### Contributing
+### Contributions
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
