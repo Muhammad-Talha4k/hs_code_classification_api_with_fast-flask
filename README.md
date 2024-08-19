@@ -56,4 +56,5 @@ This repository contains a HS code classification API'S built using FastAPI and 
 You can make predictions by sending a POST request to the appropriate endpoint with input descriptions in a json format .
 
 ### Contributions
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.G
+Good work 
