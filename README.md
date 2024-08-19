@@ -49,6 +49,7 @@ This repository contains a HS code classification API'S built using FastAPI and 
  Clone the repository:
  
  ```bash git clone https://github.com/Muhammad-Talha4k/machine_learning_api_with_fast-flask.git cd machine_learning_api_with_fast-flask ```
+ Supervised Learning used
  
 ### Usage
 
