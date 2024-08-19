@@ -79,8 +79,8 @@ This endpoint accepts a list of product descriptions and returns the top 3 HS co
 To clone the repository, use the following commands:
 
 ```bash
-   git clone https://github.com/Muhammad-Talha4k/machine_learning_api_with_fast-flask.git
-   cd machine_learning_api_with_fast-flask
+   git clone https://github.com/Muhammad-Talha4k/hs_code_classification_api_with_fast-flask.git
+   cd hs_code_classification_api_with_fast-flask
 ``` 
 ### Usage
 
